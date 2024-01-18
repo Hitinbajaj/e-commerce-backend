@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
   {
-    origin: ["https://e-commerce-skr-frontend.vercel.app/"],
+    origin: ["https://e-commerce-skr-frontend.vercel.app"],
     methods: ["POST", "GET", "DELETE"],
     credentials: true
   }
